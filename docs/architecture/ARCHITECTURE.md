@@ -67,10 +67,10 @@ The game should never know where a repetition originated.
 
 Whether a repetition comes from:
 
-* MediaPipe
-* Keyboard
-* Mouse
-* Automated testing
+- MediaPipe
+- Keyboard
+- Mouse
+- Automated testing
 
 the game should respond in exactly the same way.
 
@@ -82,12 +82,12 @@ External applications communicate with the game through a small public interface
 
 The initial API is expected to include:
 
-* createGame()
-* start()
-* triggerRep()
-* pause()
-* resume()
-* destroy()
+- createGame()
+- start()
+- triggerRep()
+- pause()
+- resume()
+- destroy()
 
 The implementation behind these methods may change over time, but the public interface should remain stable whenever possible.
 
@@ -97,15 +97,21 @@ The implementation behind these methods may change over time, but the public int
 
 The React application is responsible for:
 
-* User interface
-* Authentication
-* MediaPipe
-* Backend communication
+- User interface
+- Authentication
+- MediaPipe
+- Backend communication
 
 The game is responsible for:
 
-* Gameplay
-* Rendering
-* Physics
-* Score calculation
-* Session statistics
+- Gameplay
+- Rendering
+- Physics
+- Score calculation
+- Session statistics
+
+---
+
+**Last Updated:** 2026-06-26
+
+**Updated By:** Patrick Macabulos

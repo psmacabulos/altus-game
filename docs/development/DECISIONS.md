@@ -22,8 +22,8 @@ Developing the game separately will also make it easier to learn Phaser, test fe
 
 ## Alternatives Considered
 
-* Build the game directly inside the React project.
-* Create the game as part of a monorepo from the beginning.
+- Build the game directly inside the React project.
+- Create the game as part of a monorepo from the beginning.
 
 ## Outcome
 
@@ -45,12 +45,12 @@ This keeps the game reusable and makes it easier to test without needing the res
 
 ## Initial API
 
-* createGame()
-* start()
-* triggerRep()
-* pause()
-* resume()
-* destroy()
+- createGame()
+- start()
+- triggerRep()
+- pause()
+- resume()
+- destroy()
 
 ## Outcome
 
@@ -70,13 +70,19 @@ It's easy to spend time on animations, artwork, and effects before the core game
 
 The initial version should demonstrate that:
 
-* the game loads correctly,
-* the player can progress,
-* `triggerRep()` works,
-* the game can report session data.
+- the game loads correctly,
+- the player can progress,
+- `triggerRep()` works,
+- the game can report session data.
 
 Once those pieces are in place, visual improvements can be added with confidence.
 
 ## Outcome
 
 Gameplay and architecture take priority over graphics and effects during the MVP phase.
+
+---
+
+**Last Updated:** 2026-06-26
+
+**Updated By:** Patrick Macabulos

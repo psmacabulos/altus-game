@@ -19,6 +19,7 @@ The goal is to document the development process from the very first commit throu
 - Defined the initial engineering principles.
 - Chose to build the game as a standalone Phaser project.
 - Agreed on using a public API (`createGame()` and `triggerRep()`) to keep the game independent from the frontend.
+- Decided to setup the development environment first before coding.
 
 ## What I Learned
 
@@ -26,4 +27,10 @@ Good architecture starts before writing code. Spending time defining the project
 
 ## Next Goal
 
-Initialize the Phaser project using Vite and begin exploring the Phaser scene lifecycle.
+With the development environment complete, next is understanding the role of Phaser.Game and how the engine starts
+
+---
+
+**Last Updated:** 2026-06-26
+
+**Updated By:** Patrick Macabulos

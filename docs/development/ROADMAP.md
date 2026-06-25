@@ -6,7 +6,6 @@ This roadmap outlines the overall direction of the project. It breaks the work i
 
 The roadmap is intended to evolve as the project grows, so it should reflect the current priorities rather than acting as a fixed plan.
 
-
 # 🏔️ Altus Game Roadmap
 
 ## Project Vision
@@ -21,7 +20,6 @@ The long-term vision is to support multiple fitness games while keeping the same
 
 ---
 
-
 # Core Engineering Principles
 
 ## 1. Decoupled Architecture
@@ -30,11 +28,11 @@ The game should never know where a repetition came from.
 
 Possible input sources include:
 
-* MediaPipe
-* Keyboard
-* Mouse
-* Mobile sensors
-* Future hardware
+- MediaPipe
+- Keyboard
+- Mouse
+- Mobile sensors
+- Future hardware
 
 The game only responds to:
 
@@ -76,13 +74,13 @@ Official Phaser examples will be used as references rather than copied wholesale
 
 The first playable version will include:
 
-* One player
-* One mountain
-* Camera following the player
-* Score system
-* Basic UI
-* `triggerRep()` public API
-* Win condition (reach the summit)
+- One player
+- One mountain
+- Camera following the player
+- Score system
+- Basic UI
+- `triggerRep()` public API
+- Win condition (reach the summit)
 
 No MediaPipe integration.
 
@@ -100,9 +98,9 @@ No multiplayer.
 
 Project Setup
 
-* Initialize Phaser project
-* Configure TypeScript
-* Create project architecture
+- Initialize Phaser project
+- Configure TypeScript
+- Create project architecture
 
 ---
 
@@ -110,11 +108,11 @@ Project Setup
 
 Core Gameplay
 
-* Player
-* Mountain
-* Camera
-* Movement
-* Score
+- Player
+- Mountain
+- Camera
+- Movement
+- Score
 
 ---
 
@@ -122,12 +120,12 @@ Core Gameplay
 
 Game API
 
-* createGame()
-* triggerRep()
-* start()
-* pause()
-* resume()
-* destroy()
+- createGame()
+- triggerRep()
+- start()
+- pause()
+- resume()
+- destroy()
 
 ---
 
@@ -135,11 +133,11 @@ Game API
 
 Polish
 
-* Animations
-* Particles
-* Sound
-* Better UI
-* Camera effects
+- Animations
+- Particles
+- Sound
+- Better UI
+- Camera effects
 
 ---
 
@@ -147,9 +145,9 @@ Polish
 
 React Integration
 
-* Embed game in React
-* Connect MediaPipe
-* Trigger gameplay from exercise detection
+- Embed game in React
+- Connect MediaPipe
+- Trigger gameplay from exercise detection
 
 ---
 
@@ -157,10 +155,10 @@ React Integration
 
 Backend Integration
 
-* Session statistics
-* Score submission
-* Leaderboards
-* Achievements
+- Session statistics
+- Score submission
+- Leaderboards
+- Achievements
 
 ---
 
@@ -170,10 +168,16 @@ The architecture should support multiple games without changing the frontend.
 
 Examples include:
 
-* Summit Climb
-* Rocket Launch
-* Temple Escape
-* Dino Escape
-* Balance Bridge
+- Summit Climb
+- Rocket Launch
+- Temple Escape
+- Dino Escape
+- Balance Bridge
 
 Each game should expose the same public API, allowing the frontend to swap games with minimal changes.
+
+---
+
+**Last Updated:** 2026-06-26
+
+**Updated By:** Patrick Macabulos
