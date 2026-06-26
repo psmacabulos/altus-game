@@ -31,6 +31,20 @@ With the development environment complete, next is understanding the role of Pha
 
 ---
 
+# Entry 002
+
+**Date:** 2026-06-26
+
+## Today's Progress
+
+- Encountered an issue with prettier not formating typescript files. Checked configuration and it is good but still not working.
+- Finally, i tried re-installing the prettier extension and it worked!
+
+## What I Learned
+
+## Next Goal
+
+With the development environment complete, next is understanding the role of Phaser.Game and how the engine starts
 **Last Updated:** 2026-06-26
 
 **Updated By:** Patrick Macabulos

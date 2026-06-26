@@ -83,6 +83,23 @@ Gameplay and architecture take priority over graphics and effects during the MVP
 
 ---
 
+# Decision 004 - main.ts will remain minimal and delegate startup responsibilities
+
+**Date:** 2026-06-26
+
+## Decision
+
+I want to build the game with scalability in mind so the separation of concerns like the camera, scenes will be on a separate file to ensure it is easy to understand , debug and build
+
+## Why?
+
+- After studying in Holberton, I realized building code is not just a 1 file  chunk of code. After 6 months it will be hard to read and even harder to debug so I want to follow the best practice.
+
+## Outcome
+
+
+
+---
 **Last Updated:** 2026-06-26
 
 **Updated By:** Patrick Macabulos
